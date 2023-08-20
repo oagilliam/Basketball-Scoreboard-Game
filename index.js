@@ -34,3 +34,17 @@ function guest3Points(){
     totalGuest += 3;
     guestPoints.innerText = totalGuest;
 }
+
+// New Game Button to reset the score
+function newGame(){
+    totalGuest = 0;
+    totalHome = 0;
+    homePoints.innerText = totalHome;
+    guestPoints.innerText = totalGuest;
+}
+
+// Tells the Winner
+/*function winner(){
+    if homePoints > guestPoints
+} 
+*/
