@@ -6,9 +6,11 @@ body{
     display: flex;
     justify-content: space-around;
     text-align: center;
-}
+    background: #1B244A;
 
 .new-game{
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
+    background: #1B244A;
 }
