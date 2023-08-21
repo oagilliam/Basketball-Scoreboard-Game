@@ -7,10 +7,29 @@ body{
     justify-content: space-around;
     text-align: center;
     background: #1B244A;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+
+#home-points, #guest-points{
+    background-color: black;
+    margin-bottom: 23px;
+    font-size: 90px;
+}
+
+.points-container{
+    background-color: black;
+    padding-left: 45px;
+    padding-right: 45px;
+}
 
 .new-game{
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
     background: #1B244A;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
