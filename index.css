@@ -7,9 +7,22 @@ body{
     justify-content: space-around;
     text-align: center;
     background: #1B244A;
-    margin-left: 100px;
-    margin-right: 100px;
     color: white;
+    margin: auto;
+    min-width: 200px;
+    max-width: 700px;
+    padding-top: 30px;
+}
+
+.new-game-container{
+    display: flex;
+    background: #1B244A;
+    justify-content: flex-end;
+    padding-bottom: 8px;
+    padding-top: 50px;
+    margin: auto;
+    min-width: 200px; 
+    max-width: 700px;
 }
 
 #home-points, #guest-points{
@@ -24,12 +37,21 @@ body{
     padding-right: 45px;
 }
 
-.new-game{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    background: #1B244A;
-    padding-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+.homeAdd1-btn, .homeAdd2-btn, .homeAdd3-btn, .guestAdd1-btn, .guestAdd2-btn, .guestAdd3-btn, .newGame-btn{
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
 }
+
+.newGame-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    margin-right: 6px;
+    border-radius: 50px;
+}
+
