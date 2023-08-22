@@ -10,9 +10,9 @@ h3{
 }
 
 @font-face{
-    font-family: "digital-7";
-    src: url('/fonts/digital-7.ttf');
-}
+    font-family: "CursedTimerUlil-Aznm";
+    src: url('/fonts/CursedTimerUlil-Aznm.ttf');
+} 
 
 .container{
     display: flex;
@@ -39,21 +39,27 @@ h3{
 
 #home-points, #guest-points{
     background-color: black;
-    margin-bottom: 23px;
+    border-radius: 5px;
+    color: #F94F6D;
     font-size: 90px;
     text-align: center;
-    font-family: "digital-7";
+    font-family: "CursedTimerUlil-Aznm";
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 5px;
+    margin-bottom: 23px;
 }
 
 .homeAdd1-btn, .homeAdd2-btn, .homeAdd3-btn, .guestAdd1-btn, .guestAdd2-btn, .guestAdd3-btn, .newGame-btn{
     background-color: #1B244A;
-    border: 2px solid #9AABD8;
+    border: 1px solid #9AABD8;
     color: #9AABD8;
     border-radius: 5px;
     width: 45px;
     height: 45px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
+    font-family: "CursedTimerUlil-Aznm";
 }
 
 .newGame-btn{

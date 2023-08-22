@@ -42,9 +42,3 @@ function newGame(){
     homePoints.innerText = totalHome;
     guestPoints.innerText = totalGuest;
 }
-
-// Tells the Winner
-/*function winner(){
-    if homePoints > guestPoints
-} 
-*/
