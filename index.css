@@ -2,6 +2,18 @@ body{
     margin:0;
 }
 
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@font-face{
+    font-family: "digital-7";
+    src: url('/font/digital-7/digital-7.ttf');
+}
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -29,12 +41,8 @@ body{
     background-color: black;
     margin-bottom: 23px;
     font-size: 90px;
-}
-
-.points-container{
-    background-color: black;
-    padding-left: 45px;
-    padding-right: 45px;
+    text-align: center;
+    font-family: "digital-7";
 }
 
 .homeAdd1-btn, .homeAdd2-btn, .homeAdd3-btn, .guestAdd1-btn, .guestAdd2-btn, .guestAdd3-btn, .newGame-btn{
@@ -45,6 +53,7 @@ body{
     width: 45px;
     height: 45px;
     font-size: 20px;
+    text-align: center;
 }
 
 .newGame-btn{
@@ -53,5 +62,9 @@ body{
     font-size: 15px;
     margin-right: 6px;
     border-radius: 50px;
+    background-color: #9AABD8;
+    color: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
