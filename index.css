@@ -1,10 +1,11 @@
 body{
+    background-color: #1B244A;
     margin:0;
 }
 
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -18,7 +19,6 @@ h3{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #1B244A;
     color: white;
     margin: auto;
     min-width: 200px;
@@ -29,15 +29,16 @@ h3{
 .new-game-container{
     display: flex;
     background: #1B244A;
-    justify-content: flex-end;
-    padding-bottom: 8px;
-    padding-top: 50px;
+    justify-content: center;
+    padding-top: 150px;
     margin: auto;
     min-width: 200px; 
     max-width: 700px;
 }
 
 #home-points, #guest-points{
+    display: flex;
+    justify-content: center;
     background-color: black;
     border-radius: 10px;
     color: #F94F6D;
@@ -45,9 +46,10 @@ h3{
     text-align: center;
     font-family: "CursedTimerUlil-Aznm";
     padding-top: 10px;
-    padding-left: 40px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 23px;
+    width: 160px;
 }
 
 .homeAdd1-btn, .homeAdd2-btn, .homeAdd3-btn, .guestAdd1-btn, .guestAdd2-btn, .guestAdd3-btn, .newGame-btn{
@@ -61,7 +63,8 @@ h3{
     text-align: center;
     font-family: "CursedTimerUlil-Aznm";
     justify-content: space-around;
-    margin: 3px;
+    margin: 8px;
+    cursor: pointer;
 }
 
 .newGame-btn{
